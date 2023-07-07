@@ -1,7 +1,7 @@
 # NHP_fibers
 Algorithms and software for analyzing neural data collected with multifunctional fibers
 
-Code and data repository for:
+Code and data repository for: /n
 Multifunctional fibers enable modulation of cortical and deep brain activity during
 cognitive behavior in macaques
 Indie C. Garwood, Alex J. Major, Marc-Joseph Antonini, Josefina Correa, Youngbin Lee, 
