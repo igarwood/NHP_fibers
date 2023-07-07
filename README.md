@@ -6,7 +6,7 @@ Multifunctional fibers enable modulation of cortical and deep brain activity dur
 cognitive behavior in macaques
 Indie C. Garwood, Alex J. Major, Marc-Joseph Antonini, Josefina Correa, Youngbin Lee, 
 Atharva Sahasrabudhe, Meredith K. Mahnke, Earl K. Miller+, Emery N. Brown+, Polina Anikeeva+
-+ Senior authors
+(+ Senior authors)
 
 Repository created by
 Indie Garwood 
