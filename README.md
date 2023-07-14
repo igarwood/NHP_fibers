@@ -15,4 +15,4 @@ Repository created by
 Indie Garwood, 
 July 2023
 
-MIT license pending
+MIT license pending. Code will be available at the time of publication.
