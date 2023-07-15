@@ -1,4 +1,4 @@
-# Title of Dataset
+# Data for: 
 ---
 
 Give a brief summary of dataset contents, contextualized in experimental procedures and results.
@@ -24,6 +24,5 @@ Data was derived from the following sources:
 
 ## Code/Software
 
-This is an optional, freeform section for describing any code in your submission and the software used to run it.
-
-Describe any scripts, code, or notebooks (e.g., R, Python, Mathematica, MatLab) as well as the software versions (including loaded packages) that you used to run those files. If your repository contains more than one file whose relationship to other scripts is not obvious, provide information about the workflow that you used to run those scripts and notebooks.
+See the main README.md file in https://github.com/igarwood/NHP_fibers
+MIT license pending. Code/Software will be available at the time of publication.
