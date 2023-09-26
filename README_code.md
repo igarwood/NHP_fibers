@@ -39,12 +39,15 @@ flowchart LR
 <summary>Setup</summary>
     
   1. Download experimental_data and device_data folders from Dryad (https://doi.org/10.5061/dryad.zkh1893ft).
-  2. Clone https://github.com/igarwood/NHP_fibers
-  3. (Optional) Clone https://github.com/iahncajigas/nSTAT
+     - Note that, when cloned, the code repository will contain three empty folders, 'experimental_data', 'device_data', and 'processed_data'
+     - Download data files (e.g., pmc_gabax) and transfer to experimental_data folder.
+     - Download experimental_data.zip, device_data.zip processed_data.zip and transfer contents to the corresponding folders
+  3. Clone https://github.com/igarwood/NHP_fibers
+  4. (Optional) Clone https://github.com/iahncajigas/nSTAT
      - Used for SUA and LFP analysis
-  4. (Optional) Download and install chronux toolbox http://chronux.org/
+  5. (Optional) Download and install chronux toolbox http://chronux.org/
      - Used for LFP analysis
-  5. Copy data files to the corresponding folders in NHP_fibers (or adjust load_data/setup.m to refer to the correct path)
+  6. Copy data files to the corresponding folders in NHP_fibers (or adjust load_data/setup.m to refer to the correct path)
 </details>
 
 <details>
