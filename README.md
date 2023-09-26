@@ -58,6 +58,6 @@ Note that one aCSF file was included in behavioral analysis but not electrophysi
 ## Code/Software
 Code will be available in a permanently archived repository located at https://github.com/igarwood/NHP_fibers
 
-See the main README.md file in https://github.com/igarwood/NHP_fibers
+See the main README_code.md file in https://github.com/igarwood/NHP_fibers
 
 MIT license. 
