@@ -41,7 +41,7 @@ flowchart LR
   1. Download experimental_data and device_data folders from Dryad (https://doi.org/10.5061/dryad.zkh1893ft).
      - Note that, when cloned, the code repository will contain three empty folders, 'experimental_data', 'device_data', and 'processed_data'
      - Download data files (e.g., pmc_gabax) and transfer to experimental_data folder.
-     - Download experimental_data.zip, device_data.zip processed_data.zip and transfer contents to the corresponding folders
+     - Download experimental_data.zip, device_data.zip, processed_data.zip and transfer contents to the corresponding folders
   3. Clone https://github.com/igarwood/NHP_fibers
   4. (Optional) Clone https://github.com/iahncajigas/nSTAT
      - Used for SUA and LFP analysis
