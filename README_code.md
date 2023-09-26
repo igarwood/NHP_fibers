@@ -1,4 +1,5 @@
-# NHP_fibers_private
+# NHP_fibers
+[![DOI](https://zenodo.org/badge/663635000.svg)](https://zenodo.org/badge/latestdoi/663635000)
 https://github.com/igarwood/NHP_fibers contains processed neural data and algorithms to analyze data recorded during neuromodulation experiments described in Garwood, et al., 2023. The codebase also includes functions to characterize multifunctional fiber neurotechnology.  It integrates with several preexisting toolboxes and contains modified functions based on functions written by other researchers (details below). 
 
 The codebase was written by Indie Garwood and the data was collected by Indie Garwood and Alex Major, with assistance from Meredith Mahnke, Josefina Correa, MJ Antonini, Atharva Sahasrabudhe, Youngbin Lee. The work was supported by Polina Anikeeva, Emery Brown, and Earl Miller. 
