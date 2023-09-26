@@ -10,10 +10,13 @@ There are 5 recording types and corresponding files
 - pmc_noic: Recordings in the premotor cortex with no intracranial infusion (n = 4)
 - put_GABA: Recording in the putamen with intracranial GABA infusion
 - pmc_noic: Recordings in the putamen with no intracranial infusion.
+
+Device data is stored in device_data.zip (see README_code.md for more information)
+Additionally, we provide preprocessed data in experimental_data/data_for_fooof and processed_data (see README_code.md for more information)
 Further detail regarding experimental details can be found in the associated manuscript (Garwood, et al.)
 
 
-## Description of the data and file structure
+## Description of experimental data and file structure
 
 Each data file contains 2 variables and 4 structures:
 Variables:
@@ -55,4 +58,4 @@ Code will be available in a permanently archived repository located at https://g
 
 See the main README.md file in https://github.com/igarwood/NHP_fibers
 
-MIT license pending. Code/Software will be available at the time of publication.
+MIT license. 
