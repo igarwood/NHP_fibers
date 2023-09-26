@@ -12,7 +12,9 @@ There are 5 recording types and corresponding files
 - pmc_noic: Recordings in the putamen with no intracranial infusion.
 
 Device data is stored in device_data.zip (see README_code.md for more information)
+
 Additionally, we provide preprocessed data in experimental_data/data_for_fooof and processed_data (see README_code.md for more information)
+
 Further detail regarding experimental details can be found in the associated manuscript (Garwood, et al.)
 
 
