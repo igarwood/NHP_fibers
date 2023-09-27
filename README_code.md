@@ -205,7 +205,7 @@ flowchart LR
 - LFP/fooof: directory for preprocessing LFP data for FOOOF analysis and characterizing the results
   > Workflow: fooof_preprocessing &rarr; FOOOF (external) &rarr; fooof_analysis
 
-  > Note: output from fooof_preprocessing and FOOOF are saved in experimental_data/data_for_fooof
+  > Note: output from FOOOF are saved in experimental_data/data_for_fooof
   - LFP/fooof/fooof_bands.m: function for extracting frequency bands from center frequencies identified with fooof from GABA and saline sessions
   - LFP/fooof/fooof_extract_bs.m: function for extracting confidence intervals from bootstrap samples
   - LFP/fooof/fooof_timecourse.m: script for calculating power in fooof derived frequency bands over time.
