@@ -98,7 +98,7 @@ Processed data folder includes spike sorting results and example SS-GLM and AR m
        - xK: the expected value of the state (effect of task subphase on firing rate in a given trial)
        - gammahatall: estimated values of gamma across all EM iterations
        - logll: log likelihood of the model
-       - nIter: number of iterations of each model estimation process
+       - nIter: number of EM iterations performed
        - Qhat: estimated state noise variance (state noise covariance is assumed to be diagonal) on the final EM iteration
        - Qhat: estimated state noise variance across all EM iterations
        - WK: state covariance within trials, W_(k|K) 
