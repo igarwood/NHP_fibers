@@ -93,9 +93,26 @@ Processed data folder includes spike sorting results and example SS-GLM and AR m
     - spikes_locs: n_units by 1 cell array containing the index of every spike of the corresponding unit. Single unit times are given by s_time(spike_locs{unit_num})
 - SSGLM models follow the naming convention location_exptypex_unity_trialvariant_Rz.mat where 'x' indicates the experiment number, 'y' indicates the unit id, and 'z' indicates the model order.
     - Additional subscripts include '_nohist.mat' indicating the model has no history terms and '_stationary.mat', indicating that the parameters are stationary across trials.
-    - Each file contains estimated SSGLM parameters (Garwood 2023, Methods, README_code.md)
+    - Each file contains estimated SSGLM parameters (Garwood 2023, Methods, README_code.md). Each parameter is an 1 by M cell array, where M corresponds to the number of models estimated for the corresponding trial variant.
+       - gammahat: estimated values of gamma (history coefficients) on the final EM iteration
+       - xK: the expected value of the state (effect of task subphase on firing rate in a given trial)
+       - gammahatall: estimated values of gamma across all EM iterations
+       - logll: log likelihood of the model
+       - nIter: number of iterations of each model estimation process
+       - Qhat: estimated state noise variance (state noise covariance is assumed to be diagonal) on the final EM iteration
+       - Qhat: estimated state noise variance across all EM iterations
+       - WK: state covariance within trials, W_(k|K) 
+       - WKu: state covariance across trials, W_(k,u|K)
+       - stimCIs: optional SSGLM output; confidence intervals for state estimates derived with Monte Carlo; computationally intensive to compute, currently empty
+       - stimulus: optional SSGLM output; median of the state estimates derived with Monte Carlo; computationally intensive to compute, currently empty
+       - fitResults: optional output; extended fitResults if this is enabled in the nSTAT function, DecodingAlgorithms_IG.m; currently empty to avoid unnecessary data storage.
 - AR models follow the naming convention location_exptypex_lfp_trialvariant_Rz.mat
-
+   - Each file contains estimated AR parameters with and without task subphase covariates (variable names _with_encoding and _without_encoding). Each parameter is an 1 by M cell array, where M corresponds to the number of models estimated for the corresponding trial variant.
+       - E: AR model residuals
+       - V: AR model conditional variance
+       - LL: AR model log likelihood
+       - EstMdl: Matlab ARIMA structure for the estimated AR model
+         
 ## Code/Software
 Code will be available in a permanently archived repository located at https://github.com/igarwood/NHP_fibers
 
