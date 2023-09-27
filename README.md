@@ -84,7 +84,7 @@ Device data is organized into three subfolders: DMA, fluidic, and impedance.
 
 ## Description of preprocessed data and file structure
 
-Processed data file includes spike sorting results and example SS-GLM and AR models
+Processed data folder includes spike sorting results and example SS-GLM and AR models
 - spike_data: folder containing spike sorting results
   - Naming convention: spikes_cluster_location_exptypex.mat where 'x' indicates that experiment number
   - Each file contains 3 variables:
